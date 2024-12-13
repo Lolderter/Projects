@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(684740.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-title {
+    text-align: center;
+    color: green;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    text-align: center;
+    font-size: 36px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.element {
+    position: relative;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #D4C1EC;
+    
+}
+
+.element:hover {
+    background-color: #736CED;
+    transition: ease 0.3s;
+}
+
+.emoji {
+    
+    opacity: 0;
+    font-size: 24px;
+    transition: ease 0.3s;
+}
+
+.element:hover .emoji {
+    opacity: 1; 
+    
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.light {
+    width: 100vh;
+    height: 20vh;
+}
