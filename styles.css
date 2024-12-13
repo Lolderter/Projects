@@ -1,13 +1,29 @@
+body {
+    background-image: url(japan-background-digital-art.jpg) ;
+}
+
 a {
-    color: black;
+    color: white;
     text-decoration: none;
-    padding: 10px;
-    margin: 5%;
-    background-color: grey;
+    padding: 20px;
+    margin: 3%;
+    background-color: #2f3e46;
     border: 1px solid black;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    
     border-radius: 10px;
 }
 
+a:hover {
+    background-color: #354f52;
+    transition: ease 0.3s;
+
+}
+
+
 h2 {
+    color: white;
     text-align: center;
 }
