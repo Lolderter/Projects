@@ -1,0 +1,55 @@
+li {
+    list-style: none;
+    margin: 35px;
+    
+}
+
+header {
+    display: flex;
+    background-color: lightblue;
+    
+}
+
+ol {
+    display: flex;
+    
+    
+}
+
+
+body, html {
+    color: blue;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+  
+}
+
+
+
+footer {
+    color: black;
+    background-color: lightblue;
+    padding: 2vh;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav {
+    color:blue;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 55%;
+}
+
+.banner {
+    background-color: #DDDDDD;
+    height: 200px;
+    
+    
+}
+
+p {
+    font-size: 16px;
+}
