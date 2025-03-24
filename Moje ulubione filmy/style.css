@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/nitish-meena-RbbdzZBKRDY-unsplash.jpg);
+   
+    background-size: cover;
+    font-family: "Lexend";
+    font-size: 2em;
+    min-height: 100vh;
+    
+
+
+    
+}
+
+li  {
+    list-style:decimal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 1200px;
+    height: 600px;
+}
+
+
+.accent {
+    color:rgb(240, 204, 204);
+}
+
+.button-link {
+    margin: 1%;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  /* Hover effect */
+  .button-link:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+
+  /* Focus effect */
+  .button-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+  }
+
+  /* Active effect */
+  .button-link:active {
+    background-color: #004085;
+    transform: translateY(1px);
+  }
+
+
+
+  #hero-title {
+    color:#614c3c;
+  }
+
+
+  #agent{
+    color: #BDCDD6;
+  }
