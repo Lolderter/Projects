@@ -1,0 +1,16 @@
+img{
+    max-width: 500px;
+    max-height: 5%
+    
+}
+
+body {
+    background-color: #252424;
+    color: #18dba7;
+  
+} 
+    
+.lyrics {
+    float: left;
+}
+
