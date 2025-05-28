@@ -14,20 +14,24 @@
         <a href="koszty.html">Kalkulator kosztów</a>
     </nav>
     <h1>Kalkulator kosztów montażu</h1>
-    <form action="">
-    <label for="width">Szerokość pomieszczenia[m]:</label>
-    <input type="number" id="width">
-    <label for="lenght">Długość pomieszczenia[m]:</label>
-    <input type="number" id="lenght">
+    <form action="" onsubmit="return false;">
+        <label for="width">Szerokość pomieszczenia[m]:</label>
+        <input type="number" id="width">
+        <label for="length">Długość pomieszczenia[m]:</label>
+        <input type="number" id="length">
     </form>
     <p>Typ panelu</p>
-    <input type="radio" id="laminowane">
+    <input type="radio" id="laminowane" value="12">
     <label for="laminowane">Panele laminowane</label><br>
-    <input type="radio" id="winylowe">
-    <label for="winylowe">Panele winylowe</label> <br>
-    <input type="radio" id="podłogowa">
-    <label for="podłogowa">Deska podłogowa</label><br>
+    <input type="radio" id="winylowe" value="14">
+    <label for="winylowe">Panele winylowe</label><br>
+    <input type="radio" id="podlogowa" value="18">
+    <label for="podlogowa">Deska podłogowa</label><br>
     <button onclick="oblicz()">Oblicz</button>
-     
+
+    
+    <div id="result"></div>
+
+    <script src="main.js"></script>
 </body>
 </html>
