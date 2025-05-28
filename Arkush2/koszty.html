@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koszty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><img src="media/laminowane1.png" alt="firma usługowa"></header>
+    <nav>
+        <a href="index.html">Strona Głowna</a>
+        <a href="oferta.html">Oferta</a>
+        <a href="koszty.html">Kalkulator kosztów</a>
+    </nav>
+    <h1>Kalkulator kosztów montażu</h1>
+    <form action="">
+    <label for="width">Szerokość pomieszczenia[m]:</label>
+    <input type="number" id="width">
+    <label for="lenght">Długość pomieszczenia[m]:</label>
+    <input type="number" id="lenght">
+    </form>
+    <p>Typ panelu</p>
+    <input type="radio" id="laminowane">
+    <label for="laminowane">Panele laminowane</label><br>
+    <input type="radio" id="winylowe">
+    <label for="winylowe">Panele winylowe</label> <br>
+    <input type="radio" id="podłogowa">
+    <label for="podłogowa">Deska podłogowa</label><br>
+    <button onclick="oblicz()">Oblicz</button>
+     
+</body>
+</html>
