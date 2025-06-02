@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+body {
+    font-family: comfortaa;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(cole-parrant-vESmjA7u4S8-unsplash.jpg);
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+img {
+    max-width: 15em;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+div img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
