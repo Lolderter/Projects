@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: #824555;
+    text-align: center;
+    padding: 20px;
+}
+
+#lewo,
+#centr {
+    width: 30%;
+    height: 350px;
+
+}
+
+#lewo {
+    background-color: #A26475;
+}
+
+#centr {
+    background-color: #824555;
+}
+
+#prawo {
+    background-color: #A26475;
+    width: 40%;
+    height: 350px;
+    overflow: auto;
+}
+
+#obraz {
+    float: left;
+    width: 50px;
+}
+
+table,
+p {
+    margin: 10px;
+}
+
+tr,
+td {
+    border: 3px solid #824555;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+}
