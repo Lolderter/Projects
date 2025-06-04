@@ -1,0 +1,77 @@
+  <!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fryzjerstwo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        
+        <section id="left">
+            <h1><a href="index.html">SALON FRYZJERSKI</a></h1>
+            <h2>PROMOCJA!</h2>
+    
+    <form>
+        <label>
+            <input  id="krotkie" type="radio" name="dlugosc" value="25"> Krótkie
+        </label><br>
+        <label>
+            <input id="srednie" type="radio" name="dlugosc" value="30"> Średnie
+        </label><br>
+        <label>
+            <input id="poldlugie" type="radio" name="dlugosc" value="40"> Półdługie
+        </label><br>
+        <label>
+            <input  id="dlugie"type="radio" name="dlugosc" value="50"> Długie
+        </label><br><br>
+        
+        <button type="button" onclick="oblicz()">Odkryj promocję</button>
+    </form>
+    <p id="wynik"></p>
+        </section>
+
+        <section id="right">
+            <h4><a href="fryzura.html">Ceny strzyżenia</a></h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Długość włosów</th>
+                        <th>Cena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Krótkie</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Średnie</td><td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Półdługie</td><td>40</td>
+                    </tr>
+                    <tr>
+                        <td>Długie</td><td>50</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+        </section>
+    </main>
+
+    <footer><p>Autor:Nam Tymur</p></footer>
+    
+</body>
+
+
+<script src="main.js"></script>
+</html>
+
+  
+  
+  
+  
