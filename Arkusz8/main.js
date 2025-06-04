@@ -15,10 +15,7 @@ function oblicz() {
         cenaBazowa = 40;
     } else if (wybranaDlugosc.value === "50") {
         cenaBazowa = 50;
-    } else {
-        alert("Nieprawidłowa wartość!");
-        return;
-    }
+    } 
 
     var cenaPromocyjna = cenaBazowa - 10;
    
