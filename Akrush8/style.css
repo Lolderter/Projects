@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    background-color: LightSteelBlue;
+}
+
+header img {
+    width: 80%;
+}
+
+.formularz {
+    padding-top: 20px;
+}
+
+.glowny {
+    padding: 30px;
+    height: 400px;
+    overflow: auto;
+}
+
+footer {
+    background-color: Orange;
+    padding: 10px;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    border: 1px dotted Maroon;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px dotted Maroon;
+    padding: 5px;
+}
+
+table tr:hover {
+    background-color: SteelBlue;
+    color: white;
+}
