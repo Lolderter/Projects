@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+    margin:15%;
+    font-size: 1.5em;
+   
+}
+
+ul {
+    padding: 10px;
+    list-style: square;
+}
+
+h1 {
+    font-style: italic;
+}
