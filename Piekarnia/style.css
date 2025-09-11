@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background: linear-gradient(Teal,AliceBlue);
+     color: white;
+     text-align: center;
+     margin-left: 20px;
+     margin-right:20px ;
+     background-repeat: no-repeat;
+     
+     
+}
+
+header {
+    background-color: rgba(160, 83, 45,0.6);
+    padding: 10px;
+    margin-top: 100px;
+    border-radius:15px 15px 0px 0px;
+}
+
+
+
+
+main {
+    background-color: saddlebrown;
+    padding: 30px;
+}
+
+
+
+
+footer {
+    background-color: sienna;
+    padding: 30px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+
+h1 {
+    text-shadow: 2px 2px 5px black;
+}
+
+
+table {
+    width: 70%;
+    background-color: sienna;
+}
+
+
+img {
+    z-index: -1;
+    top: 70px;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+
+a {
+    font-size: 130%;
+    padding: 30px;
+    color: white;
+
+}
