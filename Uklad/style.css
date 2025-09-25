@@ -1,0 +1,54 @@
+#block {
+    display: inline-block;
+    
+    
+}
+ul {
+    list-style: none;
+}
+
+.inline-block-img img {
+  display: inline-block;
+  
+ 
+ 
+}
+.inline-block-2x2 {
+  width: 220px;
+  font-size: 0; 
+}
+
+
+.block-list {
+    display: inline-block;
+}
+
+.image-block {
+    width: 800px;
+}
+
+#flex-list {
+    display: flex;
+}
+
+
+
+
+.flex-image-block {
+    width: 620px;
+}
+
+.grid-image-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 510px;
+    
+   
+    
+
+}
+
+img {
+     width: 300px;
+    height: 200px;
+}
