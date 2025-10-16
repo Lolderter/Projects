@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+
+body {
+    background-color: #F5FBEF;
+    color: #503D42;
+    font-family: Comfortaa ;
+    font-size: 1.1em;
+    
+}
+
+h1 {
+    color: #84C318;
+    text-align: center;
+}
+
+p {
+    margin: 0.8em;
+    padding: 1em;
+}
+
+.style-desc {
+    display: block;
+            margin-top: 0.5em;
+            font-size: 0.85em;
+            color: #849324;
+            font-style: italic;
+}
+
+
+#q{
+    text-decoration-line:underline;
+}
+
+#w {
+    text-decoration-line:overline; 
+}
+#e {
+    text-decoration-line:line-through; 
+}
+#r {
+    text-decoration-line:underline ;
+    text-decoration: color(srgb rgb(182, 61, 61) rgb(74, 150, 74) rgb(52, 52, 156));
+}
+
+#t {
+    text-decoration-style:solid ;
+    text-decoration: underline;
+}
+#y {
+     text-decoration-style:double ;
+      text-decoration-line:underline;
+     
+}
+#u {
+     text-decoration-style:dotted ;
+      text-decoration-line:underline;
+}
+
+#i {
+    text-decoration-style:dashed;
+      text-decoration-line:underline;
+}
+
+#o{
+    text-decoration-thickness:auto;
+      text-decoration-line:underline;
+}
+#p{
+    text-decoration-thickness: from-font;
+      text-decoration-line:underline;
+}
+#a{
+    text-decoration-thickness:10px;
+      text-decoration-line:underline;
+}
+
