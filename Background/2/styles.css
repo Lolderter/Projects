@@ -1,0 +1,20 @@
+
+.box_opacity, .box_rgba {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box_rgba {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+.box_opacity {
+    background-color: #000000;
+    opacity: 0.5; 
+    color: white;
+}
+

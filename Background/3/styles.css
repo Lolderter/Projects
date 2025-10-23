@@ -1,0 +1,16 @@
+.hero { 
+    min-height: 60vh;
+    background-image: url('jakob-rosen-Czs9F3QXrgU-unsplash.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: rgb(247, 1, 1);
+    font-size: 3rem;   
+}

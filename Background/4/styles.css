@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pattern-box {
+    text-align: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-image: url('jakob-rosen-Czs9F3QXrgU-unsplash.jpg');
+    background-size: 100px 100px; 
+}
+
+.box1 {
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.box2 {
+    background-repeat: repeat-x;
+    background-position: center; 
+}
+
+.box3 {
+    background-repeat: repeat;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}

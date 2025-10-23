@@ -1,0 +1,51 @@
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    background-color: #fff;
+    background-image: url('makaka.jpg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.box span {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+
+
+.pos1 { background-position: left top; }
+.pos2 { background-position: center top; }
+.pos3 { background-position: right top; }
+.pos4 { background-position: left center; }
+.pos5 { background-position: center; }
+.pos6 { background-position: right center; }
+.pos7 { background-position: left bottom; }
+.pos8 { background-position: center bottom; }
+.pos9 { background-position: right bottom; }
