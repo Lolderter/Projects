@@ -1,0 +1,37 @@
+header {background-color: #FCA311;
+    height: 15vh;
+}
+nav {
+    background-color: #E0E2DB;
+    height: 15vh;
+}
+section{
+    background-color: #EFEFD0;
+    height: 15vh;
+    
+}
+#a {
+    background-color: #D2D4C8;
+    width: 33vw;
+}
+
+#b {
+    background-color: #B8BDB5;
+    width: 33vw;
+}
+#c{
+    background-color: #6b6e69;
+    width: 33vw;
+}
+
+footer {
+    background-color: #DB2B39;
+    height: 15vh;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    height: 40vh;
+    justify-content: center;
+}

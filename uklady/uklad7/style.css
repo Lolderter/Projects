@@ -1,0 +1,20 @@
+nav,footer {
+    background-color: cadetblue;
+    height: 10vh;
+}
+main {
+    display: flex;
+    height: 80vh;
+    padding: 20px;
+   
+}
+
+aside {
+    background-color: #ca2727;
+     width: 100%;
+}
+
+section{
+    background-color: #662525;
+     width: 100%;
+}

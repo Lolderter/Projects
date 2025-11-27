@@ -1,0 +1,35 @@
+header,footer {
+    background-color: #904E55;
+    height: 10vh;
+}
+
+section,nav {
+    background-color: #E2DE84 ;
+    width: 50vw;
+   
+    
+    
+}
+
+
+#flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex1 {
+    display: flex;
+}
+
+.secr {
+    background-color: #eec745;
+    height: 80vh;
+}
+
+.secl {
+    height: 78vh;
+}
+
+#ob {
+    width: 100%;
+}

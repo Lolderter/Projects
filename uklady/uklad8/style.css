@@ -1,0 +1,9 @@
+header,footer {
+    background-color: rgb(223, 67, 67);
+    height: 10vh;
+}
+
+
+#flex {
+    display: flex;
+}

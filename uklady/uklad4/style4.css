@@ -1,0 +1,27 @@
+nav {
+    background-color: #02a533;
+    height: 5vh;
+}
+
+header {
+    background-color: #395756;
+    height: 15vh;
+}
+section {
+    background-color: #4F5D75;
+    width: 50vw;
+}
+
+footer {
+    background-color: #7261A3;
+    height: 15vh;
+}
+
+main {
+    display: flex;
+    height: 65vh;
+}
+
+#right {
+    background-color: #02a533;
+}

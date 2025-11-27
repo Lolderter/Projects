@@ -1,0 +1,32 @@
+main {
+
+    display:  flex;
+    
+    height: 60vh;
+}
+
+header {
+    background-color: #463F3A;
+    height: 20vh;
+}
+
+#a {
+    background-color: #8A817C;
+    width: 33vw;
+}
+
+#b {
+    background-color: #BCB8B1;
+    width: 33vw;
+}
+
+#c {
+    
+    background-color: #F4F3EE;
+    width: 33vw;
+}
+
+footer {
+    background-color: #E0AFA0;
+    height: 20vh;
+}
