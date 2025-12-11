@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightsalmon;
+    text-align: center;
+    
+    
+}
+
+
+#ltop {
+    height:400px;
+}
+
+#ldown {
+    background-color: darksalmon;
+     
+    height: 100px;
+}
+
+#main {
+    background-color: darksalmon;
+    width: 70%;
+    height: 500px;
+    overflow: auto;
+    float: left;
+}
+
+#left {
+    float: left;
+    width: 30%;
+    height: 500px;
+  
+
+}
+
+
+p{
+    margin: 0;
+    
+    }
+
+
+
+    h4 {
+        margin-top: 0;
+        padding: 22px;
+    }
