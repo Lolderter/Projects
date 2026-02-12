@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="return false;">
+        <label for="count">Ile zjadłeś ponczków?</label>
+        
+        
+        <input type="number" id="count">
+        
+
+        <select name="" id="cena">
+            <option value="0">Wybierz smak</option>
+            <option value="500">Dybajski</option>
+            <option value="400">Czekolada</option>
+            <option value="350">Rożawy</option>
+        </select>
+            <div>
+                <label for="glaze">Lukier</label>
+        <input type="checkbox" id="glaze">
+        <label for="x2">x2 Nadzienie</label>
+        <input type="checkbox" id="x2">
+            </div>
+       
+        <button onclick="calculate()">Policz</button>
+        <div id="result"></div>
+    </form>
+</body>
+<script src="main.js"></script>
+</html>
