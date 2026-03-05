@@ -1,0 +1,30 @@
+p {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+body {
+    background-color: #14213D;
+    color: #FCA311;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #257fdf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
