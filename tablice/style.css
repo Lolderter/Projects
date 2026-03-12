@@ -1,0 +1,41 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background:#0D5C63;
+    text-align:center;
+    padding:40px;
+}
+
+h2{
+    color:#333;
+}
+
+button{
+    margin:5px;
+    padding:10px 15px;
+    border:none;
+    background:#78CDD7;
+    color:white;
+    font-size:14px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#2980b9;
+}
+
+#wynik{
+    margin-top:20px;
+    padding:20px;
+    background:#FFFFFA;
+    border-radius:8px;
+    min-height:40px;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    font-size:16px;
+}
+
