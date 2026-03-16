@@ -1,0 +1,96 @@
+* {
+    font-family: Garamond;
+}
+
+body{
+    margin: 0px;
+}
+
+#flex{
+    display: flex;
+}
+
+#flex > div{
+    width: 80%;
+}
+
+header {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+
+main{
+    height: 600px;
+}
+
+aside {
+    background-color: coral;
+    width: 20%;
+    height: 680px;
+}
+
+img{
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#chat{
+    border: tomato 1px solid;
+    margin: 15px;
+    height: 470px;
+    overflow:scroll;
+}
+
+
+
+#jol {
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+    background-color: #EEE;
+}
+
+#jol img{
+    float: left;
+}
+
+#krz{
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+    background-color: #CCC;
+    text-align: right;
+}
+
+#krz img{
+    float: right;
+}
+
+
+button{
+    background-color: tomato;
+    border: 1px solid darkred;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+input {
+    width: 500px;
+}
+
+h2{
+    margin: 0;
+}
+
+footer{
+    background-color: tomato;
+}
